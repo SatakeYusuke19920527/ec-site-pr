@@ -4,8 +4,6 @@ import { getAllPostIds, getPostData } from '../../lib/load-post';
 import { PostType } from '../../types/PostType';
 
 export default function Post({ post }: { post: PostType }) {
-  console.log('🚀 ~ file: [id].tsx ~ line 7 ~ Post ~ post', post);
-
   return (
     <Layout>
       <main className="flex flex-row">
