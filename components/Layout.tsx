@@ -31,6 +31,11 @@ const Layout = ({
                   Blog
                 </a>
               </Link>
+              <Link href="/ec-page">
+                <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
+                  EC
+                </a>
+              </Link>
               <Link href="/contact-page">
                 <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
                   Contact
